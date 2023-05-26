@@ -8,7 +8,7 @@ function displayWeather(object) {
 
 
     cityName.textContent = ` Location: ${object.name}`;
-    tempurature.textContent = ` Current Tempurature: ${object.temp}°C`;
+    tempurature.textContent = `Tempurature: ${object.temp}°C`;
     tempFeelsLike.textContent = `Feels Like: ${object.feelsLike}°C`;
     weatherDescript.textContent = `${object.descript}`;
     

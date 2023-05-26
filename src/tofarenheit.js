@@ -8,14 +8,14 @@ function tofarenheit(tempC,feelsLikeC) {
        const farenTemp = Math.floor((tempC * 1.8) + 32);
        const feelsLikeFaren = Math.floor((feelsLikeC * 1.8) + 32);
 
-       tempurature.textContent = `Current Tempurature: ${farenTemp}°F`;
+       tempurature.textContent = `Tempurature: ${farenTemp}°F`;
        tempFeelsLike.textContent = `Feels Like: ${feelsLikeFaren}°F`;
        tempButton.textContent = "Change to Celsius";
 
     } else {
         tempButton.textContent = "Change to Farenheit"
         
-        tempurature.textContent = `Current Tempurature: ${tempC}°C`;
+        tempurature.textContent = `Tempurature: ${tempC}°C`;
         tempFeelsLike.textContent = `Feels Like: ${feelsLikeC}°C`;
     }
 
